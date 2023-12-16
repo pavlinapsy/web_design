@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+body {
+  background-color: #fde374;
+  font-family: 'Istok Web', sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #000;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.wrapper {
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__container {
+  border: 2px solid #000;
+  border-radius: 14px;
+  overflow: hidden;
+  height: calc(100vh - 10px);
+  box-shadow: 8px 14px 14px 5px #9ad28bb5
+}
+
+.header {
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 15px;
+}
+.header__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  width: 70px;
+  height: 70px;
+}
+.header__brand {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.header__name {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__menu {
+  width: calc(50%-64px);
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu__list {
+  list-style: none;
+  display: flex;
+}
+.menu__list li {
+  margin-right: 36px;
+}
+.menu__list li:nth-child(4) {
+  margin-right: 0px;
+}
+.menu__link {
+  color: #000000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar-container__devider {
+  margin: 0 36px;
+  padding: 10px;
+}
+.navbar-container__devider span {
+  color: #000000;
+}
+.navbar-container__socials {
+  margin-right: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram {
+  margin-right: 36px;
+}
+
+.page {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  margin-top: 10vh;
+}
+.container__block {
+  display: flex;
+  flex: 1;
+}
+.col-left {
+  flex: 1;
+  z-index: 10;
+  padding: 10px;
+  text-align: left;
+  margin-left: 83px;
+}
+.title-welcome p {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text-main {
+  margin-top: 20px;
+}
+.text-wrapper {
+  margin-top: 10px;
+}
+.text-wrapper p {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container-action {
+  margin: 32px auto;
+  width: 490px;
+  height: auto;
+}
+
+.container-action p {
+  color: #000;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-btn {
+  border-radius: 16px;
+  width: 301px;
+  height: 68px;
+  border: 2px solid #000000;
+  background-color:#000000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px auto;
+}
+
+.container-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px auto;
+  border-radius: 4px;
+}
+.container__form {
+  margin: auto;
+  width: 300px;
+}
+.container-btn p {
+  color: #FFF;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.col-right {
+  flex: 1;
+}
+.avatar__mask {
+  margin-left: 80px;
+  width: 70%;
+}
